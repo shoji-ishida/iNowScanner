@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629784361A68F3B20086BABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629784351A68F3B20086BABC /* AppDelegate.m */; };
+		629784381A68F3B20086BABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629784371A68F3B20086BABC /* main.m */; };
+		6297843A1A68F3B20086BABC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629784391A68F3B20086BABC /* Images.xcassets */; };
+		6297843D1A68F3B20086BABC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6297843B1A68F3B20086BABC /* MainMenu.xib */; };
+		629784491A68F3B30086BABC /* iNowScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629784481A68F3B30086BABC /* iNowScannerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		629784431A68F3B20086BABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629784271A68F3B20086BABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6297842E1A68F3B20086BABC;
+			remoteInfo = iNowScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6297842F1A68F3B20086BABC /* iNowScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNowScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629784331A68F3B20086BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629784341A68F3B20086BABC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629784351A68F3B20086BABC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629784371A68F3B20086BABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629784391A68F3B20086BABC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6297843C1A68F3B20086BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		629784421A68F3B20086BABC /* iNowScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNowScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629784471A68F3B30086BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629784481A68F3B30086BABC /* iNowScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNowScannerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6297842C1A68F3B20086BABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6297843F1A68F3B20086BABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629784261A68F3B20086BABC = {
+			isa = PBXGroup;
+			children = (
+				629784311A68F3B20086BABC /* iNowScanner */,
+				629784451A68F3B20086BABC /* iNowScannerTests */,
+				629784301A68F3B20086BABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629784301A68F3B20086BABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6297842F1A68F3B20086BABC /* iNowScanner.app */,
+				629784421A68F3B20086BABC /* iNowScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629784311A68F3B20086BABC /* iNowScanner */ = {
+			isa = PBXGroup;
+			children = (
+				629784341A68F3B20086BABC /* AppDelegate.h */,
+				629784351A68F3B20086BABC /* AppDelegate.m */,
+				629784391A68F3B20086BABC /* Images.xcassets */,
+				6297843B1A68F3B20086BABC /* MainMenu.xib */,
+				629784321A68F3B20086BABC /* Supporting Files */,
+			);
+			path = iNowScanner;
+			sourceTree = "<group>";
+		};
+		629784321A68F3B20086BABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629784331A68F3B20086BABC /* Info.plist */,
+				629784371A68F3B20086BABC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		629784451A68F3B20086BABC /* iNowScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				629784481A68F3B30086BABC /* iNowScannerTests.m */,
+				629784461A68F3B30086BABC /* Supporting Files */,
+			);
+			path = iNowScannerTests;
+			sourceTree = "<group>";
+		};
+		629784461A68F3B30086BABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629784471A68F3B30086BABC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6297842E1A68F3B20086BABC /* iNowScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6297844C1A68F3B30086BABC /* Build configuration list for PBXNativeTarget "iNowScanner" */;
+			buildPhases = (
+				6297842B1A68F3B20086BABC /* Sources */,
+				6297842C1A68F3B20086BABC /* Frameworks */,
+				6297842D1A68F3B20086BABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNowScanner;
+			productName = iNowScanner;
+			productReference = 6297842F1A68F3B20086BABC /* iNowScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		629784411A68F3B20086BABC /* iNowScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6297844F1A68F3B30086BABC /* Build configuration list for PBXNativeTarget "iNowScannerTests" */;
+			buildPhases = (
+				6297843E1A68F3B20086BABC /* Sources */,
+				6297843F1A68F3B20086BABC /* Frameworks */,
+				629784401A68F3B20086BABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629784441A68F3B20086BABC /* PBXTargetDependency */,
+			);
+			name = iNowScannerTests;
+			productName = iNowScannerTests;
+			productReference = 629784421A68F3B20086BABC /* iNowScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629784271A68F3B20086BABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "石田 勝嗣";
+				TargetAttributes = {
+					6297842E1A68F3B20086BABC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					629784411A68F3B20086BABC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6297842E1A68F3B20086BABC;
+					};
+				};
+			};
+			buildConfigurationList = 6297842A1A68F3B20086BABC /* Build configuration list for PBXProject "iNowScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629784261A68F3B20086BABC;
+			productRefGroup = 629784301A68F3B20086BABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6297842E1A68F3B20086BABC /* iNowScanner */,
+				629784411A68F3B20086BABC /* iNowScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6297842D1A68F3B20086BABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6297843A1A68F3B20086BABC /* Images.xcassets in Resources */,
+				6297843D1A68F3B20086BABC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629784401A68F3B20086BABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6297842B1A68F3B20086BABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629784381A68F3B20086BABC /* main.m in Sources */,
+				629784361A68F3B20086BABC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6297843E1A68F3B20086BABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629784491A68F3B30086BABC /* iNowScannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629784441A68F3B20086BABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6297842E1A68F3B20086BABC /* iNowScanner */;
+			targetProxy = 629784431A68F3B20086BABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6297843B1A68F3B20086BABC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6297843C1A68F3B20086BABC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6297844A1A68F3B30086BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6297844B1A68F3B30086BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6297844D1A68F3B30086BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iNowScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6297844E1A68F3B30086BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iNowScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		629784501A68F3B30086BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iNowScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNowScanner.app/Contents/MacOS/iNowScanner";
+			};
+			name = Debug;
+		};
+		629784511A68F3B30086BABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iNowScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNowScanner.app/Contents/MacOS/iNowScanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6297842A1A68F3B20086BABC /* Build configuration list for PBXProject "iNowScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6297844A1A68F3B30086BABC /* Debug */,
+				6297844B1A68F3B30086BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6297844C1A68F3B30086BABC /* Build configuration list for PBXNativeTarget "iNowScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6297844D1A68F3B30086BABC /* Debug */,
+				6297844E1A68F3B30086BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6297844F1A68F3B30086BABC /* Build configuration list for PBXNativeTarget "iNowScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629784501A68F3B30086BABC /* Debug */,
+				629784511A68F3B30086BABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629784271A68F3B20086BABC /* Project object */;
+}
